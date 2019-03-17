@@ -1,14 +1,3 @@
-/*
-*************************************************
-*This program generates polynomial              *
-*Pn(x)=a[0]x^n+a[1]x^(n-1)+a[2]x^(n-2)+...+a[n] *
-*n=degree of the polynomial                     *
-*p0(x)=a[0]                                     *
-*pi(x)=pi-1(x)*x+a[i],i=1,2,3,...,n             *
-*We will use this algorithm because power       *
-*function is very slow.                         *
-*************************************************
-*/
 /**
  @author Ali Akgun
  @file polynomial.c
