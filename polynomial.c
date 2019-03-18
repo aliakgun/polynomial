@@ -1,5 +1,6 @@
 /**
  @author Ali Akgun
+ @date 17.03.2019
  @file polynomial.c
  @bug There is no known bugs.
  @brief This c file generates polynomial by using horner scheme
@@ -7,7 +8,7 @@
  n : Degree of the polynomial
  p0(x) : a[0]
  pi(x) : pi-1(x) * x + a[i] , i = 1,2,3,...,n
- @todo Documentation of the algorithm
+ @todo Polynomial division.
 */
 #include<stdio.h> ///For standard input-output functions
 #define SIZE 1000 ///Size of the polynomial constants array.
