@@ -15,9 +15,9 @@ typedef struct{
     int degree;
     float x,constanta[SIZE],p;
 }polynomial_t;
-void drive_f(polynomial_t *polynomial);//This function interacts with the user.
-void fill_f(polynomial_t *polynomial);//This function gets the constants from the user.
-float calculate_polynomial(polynomial_t *polynomial);//Calculates the value of the Polynomial
+void drive_f(polynomial_t *polynomial);
+void fill_f(polynomial_t *polynomial);
+float calculate_polynomial(polynomial_t *polynomial);
 int main(){
     polynomial_t polynomial;
     printf("Polynomial generator\n");
